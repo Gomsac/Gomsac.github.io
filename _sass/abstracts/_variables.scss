@@ -26,5 +26,15 @@ $code-icon-width: 1.75rem !default;
 
 /* fonts */
 
-$font-family-base: 'Source Sans Pro', 'Microsoft Yahei', sans-serif !default;
-$font-family-heading: Lato, 'Microsoft Yahei', sans-serif !default;
+  @font-face {
+    font-family: 'Roboto';
+    unicode-range: U+0041-005A, U+0061-007A;
+  }
+  
+  @font-face {
+      font-family: 'Noto Sans KR';
+      unicode-range: U+AC00-D7A3;
+  }
+
+$font-family-base: 'Noto Sans KR', 'Roboto', sans-serif !default;
+$font-family-heading: 'Noto Sans KR', 'Roboto', sans-serif !default;
